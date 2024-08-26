@@ -9,23 +9,30 @@ body{
   align-items: center; 
   height: 100vh; 
   
+
+}
+
+div{
+
+  width: 300px;
+  height: 370px;
+  background-color:#333333;
+  border-radius: 15px;
+  line-height: 0.5; 
+  text-align:center;
   
 }
 
 table{
   width: 80%;
   height: 1px;
-  border-collapse: collapse;
-  
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.table{
-  width: 300px;
-  height: 360px;
-  background-color:#333333;
-  border-radius: 15px;
-  overflow: hidden; 
-  line-height: 0.5; 
+  
+img{
+  margin-top: 10px;
+ 
 }
 tr {
  
@@ -37,11 +44,12 @@ color: white;
   outline:none;
   text-align: center;
   border-radius: 15px;
-  box-shadow: 0 0 20px;
+ 
   font-size: 12.5px;
   font-weight: 500;
   overflow: hidden; 
   line-height: 2; 
+  position: center;
 }
 
 
